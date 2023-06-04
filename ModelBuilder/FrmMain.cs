@@ -17,13 +17,13 @@ namespace ModelBuilder
             frm.ShowDialog();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btnGenerate_Click(object sender, EventArgs e)
         {
             if (ConnectionString != null)
             {
-                var text = ReadDatabase(ConnectionString, txtUnitId.Text);
+                var text = ReadDatabase(ConnectionString, txtTableName.Text);
 
-                richTextBox1.Text = text;
+                txtResults.Text = text;
             }
 
             MessageBox.Show(@"Done");
