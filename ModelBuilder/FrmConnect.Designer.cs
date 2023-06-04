@@ -121,7 +121,7 @@
             // lblPassword
             // 
             lblPassword.AutoSize = true;
-            lblPassword.BackColor = Color.Gray;
+            lblPassword.BackColor = SystemColors.Control;
             lblPassword.Dock = DockStyle.Fill;
             lblPassword.Location = new Point(5, 92);
             lblPassword.Margin = new Padding(5);
@@ -134,7 +134,7 @@
             // lblUserID
             // 
             lblUserID.AutoSize = true;
-            lblUserID.BackColor = Color.Gray;
+            lblUserID.BackColor = SystemColors.Control;
             lblUserID.Dock = DockStyle.Fill;
             lblUserID.Location = new Point(5, 63);
             lblUserID.Margin = new Padding(5);
@@ -147,7 +147,7 @@
             // lblDatabase
             // 
             lblDatabase.AutoSize = true;
-            lblDatabase.BackColor = Color.Gray;
+            lblDatabase.BackColor = SystemColors.Control;
             lblDatabase.Dock = DockStyle.Fill;
             lblDatabase.Location = new Point(5, 34);
             lblDatabase.Margin = new Padding(5);
@@ -160,7 +160,7 @@
             // lblServer
             // 
             lblServer.AutoSize = true;
-            lblServer.BackColor = Color.Gray;
+            lblServer.BackColor = SystemColors.Control;
             lblServer.Dock = DockStyle.Fill;
             lblServer.Location = new Point(5, 5);
             lblServer.Margin = new Padding(5);
