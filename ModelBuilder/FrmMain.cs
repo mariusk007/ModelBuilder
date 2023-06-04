@@ -58,25 +58,25 @@ namespace ModelBuilder
                 switch (dataType?.ToLower())
                 {
                     case "int":
-                        row = $"public {dataType} {columnName} {{ get; set; }}";
+                        row = $"        public {dataType} {columnName} {{ get; set; }}";
                         break;
                     case "datetime":
-                        row = $"public {"DateTime"} {columnName} {{ get; set; }}";
+                        row = $"        public {"DateTime"} {columnName} {{ get; set; }}";
                         break;
                     case "float":
-                        row = $"public {"float"} {columnName} {{ get; set; }}";
+                        row = $"        public {"float"} {columnName} {{ get; set; }}";
                         break;
                     case "nvarchar":
-                        row = $"public {"string"} {columnName} {{ get; set; }}";
+                        row = $"        public {"string"} {columnName} {{ get; set; }}";
                         break;
                     case "smallint":
-                        row = $"public {"Int16"} {columnName} {{ get; set; }}";
+                        row = $"        public {"Int16"} {columnName} {{ get; set; }}";
                         break;
                     case "tinyint":
-                        row = $"public {"byte"} {columnName} {{ get; set; }}";
+                        row = $"        public {"byte"} {columnName} {{ get; set; }}";
                         break;
                     case "varbinary":
-                        row = $"public {"byte[]"} {columnName} {{ get; set; }}";
+                        row = $"        public {"byte[]"} {columnName} {{ get; set; }}";
                         break;
                 }
 

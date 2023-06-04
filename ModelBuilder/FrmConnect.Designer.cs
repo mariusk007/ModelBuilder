@@ -116,7 +116,7 @@
             txtDatabase.Name = "txtDatabase";
             txtDatabase.Size = new Size(195, 23);
             txtDatabase.TabIndex = 5;
-            txtDatabase.Text = "Northwind";
+            txtDatabase.Text = "AvmServer";
             // 
             // lblPassword
             // 
@@ -177,7 +177,7 @@
             txtServer.Name = "txtServer";
             txtServer.Size = new Size(195, 23);
             txtServer.TabIndex = 2;
-            txtServer.Text = "VIRTUALPC";
+            txtServer.Text = "VIRTUALPC\\SQLEXPRESS";
             // 
             // FrmConnect
             // 

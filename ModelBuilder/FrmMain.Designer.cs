@@ -51,7 +51,7 @@
             txtTableName.Name = "txtTableName";
             txtTableName.Size = new Size(149, 23);
             txtTableName.TabIndex = 3;
-            txtTableName.Text = "Employees";
+            txtTableName.Text = "Rec2023_06_04";
             // 
             // tableLayoutPanel1
             // 
