@@ -58,7 +58,7 @@ namespace ModelBuilder
                 switch (dataType?.ToLower())
                 {
                     case "int":
-                        row = $"public {dataType} {columnName} {{ get; set; }}";
+                        row = $"public {"int"} {columnName} {{ get; set; }}";
                         break;
                     case "datetime":
                         row = $"public {"DateTime"} {columnName} {{ get; set; }}";
@@ -77,6 +77,9 @@ namespace ModelBuilder
                         break;
                     case "varbinary":
                         row = $"public {"byte[]"} {columnName} {{ get; set; }}";
+                        break;
+                    default:
+                        row = $"public {"string"} {columnName} {{ get; set; }}";
                         break;
                 }
 
