@@ -39,9 +39,13 @@ namespace ModelBuilder
                 Connection = sqlConn
             };
 
-            const string commandText = @"SELECT COLUMN_NAME, DATA_TYPE
-                                        FROM INFORMATION_SCHEMA.COLUMNS
-                                        WHERE TABLE_NAME = '{0}'";
+            const string commandText = @"SELECT 
+                                          	COLUMN_NAME,
+                                        	DATA_TYPE
+                                        FROM
+                                        	INFORMATION_SCHEMA.COLUMNS
+                                        WHERE 
+                                        	TABLE_NAME = '{0}'";
 
             sqlCommand.CommandText = string.Format(commandText, tableName);
             sqlConn.Open();
